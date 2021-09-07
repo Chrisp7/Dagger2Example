@@ -1,14 +1,13 @@
 package com.example.dagger2example
 
 import android.util.Log
-import javax.inject.Inject
 
-class Remote @Inject constructor() {
+class Tires {
     companion object {
         private const val TAG = "Car"
     }
 
-    fun setListener(car: Car) {
-        Log.d(TAG, "Remote connected")
+    fun inflate() {
+        Log.d(TAG, "Tires inflated")
     }
 }

@@ -8,9 +8,8 @@ class Car @Inject constructor(val wheels: Wheels, val engine: Engine) {
         private const val TAG = "Car"
     }
 
-    @Inject
     fun drive() {
-        Log.d(TAG, " driving... ")
+        Log.d(TAG, "driving... ")
     }
 
     @Inject
