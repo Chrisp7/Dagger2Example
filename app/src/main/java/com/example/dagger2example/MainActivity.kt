@@ -2,6 +2,8 @@ package com.example.dagger2example
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.dagger2example.car.Car
+import com.example.dagger2example.dagger.DaggerCarComponent
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
