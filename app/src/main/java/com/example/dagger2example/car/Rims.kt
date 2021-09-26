@@ -1,4 +1,5 @@
 package com.example.dagger2example.car
 
-class Rims {
-}
+import javax.inject.Inject
+
+class Rims @Inject constructor()
